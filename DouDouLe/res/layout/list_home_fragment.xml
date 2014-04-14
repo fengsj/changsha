@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView_list_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView_category_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_list_homeFragment"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/imageView_list_homeFragment"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_number_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_category_homeFragment"
+        android:layout_toRightOf="@+id/textView_category_homeFragment"
+        android:text="TextView"
+        android:textColor="@color/com_sina_weibo_sdk_blue" />
+
+    <ImageView
+        android:id="@+id/imageView_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_number_homeFragment"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/go" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_friend"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/imageView_friend"
+        android:text="name"
+        android:singleLine="true"
+        android:maxEms="6"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:text="已关注"
+        android:textColor="#60603B" />
+
+    <TextView
+        android:id="@+id/textView_friend_introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_friend"
+        android:layout_alignLeft="@+id/textView_friend_name"
+        android:singleLine="true"
+        android:maxEms="8"
+        android:text="TextView"
+        android:textColor="#8B8B83" />
+
+</RelativeLayout>
